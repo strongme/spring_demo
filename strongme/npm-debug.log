@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'hexo-render-coffeescript',
+1 verbose cli   '--save',
+1 verbose cli   '-d' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose node symlink E:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'hexo-render-coffeescript', null ]
+7 verbose cache add name=undefined spec="hexo-render-coffeescript" args=["hexo-render-coffeescript",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'hexo-render-coffeescript',
+8 verbose parsed url   path: 'hexo-render-coffeescript',
+8 verbose parsed url   href: 'hexo-render-coffeescript' }
+9 silly lockFile e6335a2a-hexo-render-coffeescript hexo-render-coffeescript
+10 verbose lock hexo-render-coffeescript C:\Users\walter\AppData\Roaming\npm-cache\e6335a2a-hexo-render-coffeescript.lock
+11 silly lockFile e6335a2a-hexo-render-coffeescript hexo-render-coffeescript
+12 silly lockFile e6335a2a-hexo-render-coffeescript hexo-render-coffeescript
+13 verbose addNamed [ 'hexo-render-coffeescript', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile afe09c98-hexo-render-coffeescript hexo-render-coffeescript@
+16 verbose lock hexo-render-coffeescript@ C:\Users\walter\AppData\Roaming\npm-cache\afe09c98-hexo-render-coffeescript.lock
+17 silly addNameRange { name: 'hexo-render-coffeescript', range: '*', hasData: false }
+18 verbose request where is /hexo-render-coffeescript
+19 verbose request registry http://registry.npmjs.org/
+20 verbose request id da57fe466fd77e80
+21 verbose url raw /hexo-render-coffeescript
+22 verbose url resolving [ 'http://registry.npmjs.org/', './hexo-render-coffeescript' ]
+23 verbose url resolved http://registry.npmjs.org/hexo-render-coffeescript
+24 verbose request where is http://registry.npmjs.org/hexo-render-coffeescript
+25 info trying registry request attempt 1 at 00:48:22
+26 http GET http://registry.npmjs.org/hexo-render-coffeescript
+27 http 404 http://registry.npmjs.org/hexo-render-coffeescript
+28 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'cache-control': 'max-age=0',
+28 verbose headers   'content-length': '52',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   date: 'Sun, 17 Aug 2014 07:48:21 GMT',
+28 verbose headers   via: '1.1 varnish',
+28 verbose headers   age: '0',
+28 verbose headers   connection: 'keep-alive',
+28 verbose headers   'x-served-by': 'cache-ty67-TYO',
+28 verbose headers   'x-cache': 'MISS',
+28 verbose headers   'x-cache-hits': '0',
+28 verbose headers   'x-timer': 'S1408261701.778172,VS0,VE131' }
+29 silly registry.get cb [ 404,
+29 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '52',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Sun, 17 Aug 2014 07:48:21 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-ty67-TYO',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1408261701.778172,VS0,VE131' } ]
+30 silly lockFile afe09c98-hexo-render-coffeescript hexo-render-coffeescript@
+31 silly lockFile afe09c98-hexo-render-coffeescript hexo-render-coffeescript@
+32 error 404 404 Not Found: hexo-render-coffeescript
+32 error 404
+32 error 404 'hexo-render-coffeescript' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404 It was specified as a dependency of 'hexo-site'
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Windows_NT 6.1.7601
+34 error command "E:\\Program Files\\nodejs\\\\node.exe" "E:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "hexo-render-coffeescript" "--save" "-d"
+35 error cwd D:\hexoblog\strongme
+36 error node -v v0.10.30
+37 error npm -v 1.4.21
+38 error code E404
+39 verbose exit [ 1, true ]
